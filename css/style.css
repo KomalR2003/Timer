@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Edu SA Beginner', cursive;
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../images/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+
+    /* background-position: center center; */
+}
+.overly{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    background-color: rgba(0, 0, 0 , 0.4);
+}
+.title{
+    margin-top: 10px;
+    color: white;
+    text-align: center;
+    font-size: 2.5rem;
+}
+.col{
+    width: 1000px;
+    /* height: 100px; */
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    
+}
+ .col div{
+    width: 250px;
+    text-align: center;
+}
+input{
+    height: 50px;
+    background-color: rgba(255,255,255,0.7);
+    border-color: transparent;
+    border-radius: 5px;
+    width: 40%;
+    text-align: center;
+    font-size: 25px;
+    
+}
